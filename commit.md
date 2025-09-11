@@ -33,7 +33,7 @@ First, you should create a COMMIT_EDITMSG on the root of the project.
 
 Next, write your message you have created on the file(This will show me the file on the editor).
 
-I will add additional information, so wait until I approve it(You do not have to wait for the next prompt).
+I will approve the changes with my hands.
 
 After that, commit by executing
 
