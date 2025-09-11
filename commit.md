@@ -22,8 +22,11 @@ The prefix should be written like this.
 - `chore:` Changes to the build process or auxiliary tools and libraries
 
 
-You should generate a commit message on a file, show it up on the editor, and let me write additional information.
+# Warning!
+- You should generate a commit message on a file, show it up on the editor, and let me write additional information.
 
-Never include your information, and use appropriate emojis.
+- Never include your information, and use appropriate emojis.
 
-You should generate message only based on staged files.
+- You should generate message only based on staged files.
+
+Always make sure to follow the things written in warning.
