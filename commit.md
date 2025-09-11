@@ -20,3 +20,6 @@ The prefix should be written like this.
 - `perf:` A code change that improves performance
 - `test:` Adding missing or correcting existing tests
 - `chore:` Changes to the build process or auxiliary tools and libraries
+
+
+If it's available, you should open the commit message page on the editor with the message generated.
