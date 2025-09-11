@@ -1,12 +1,11 @@
-# Rules when you make a commit
+# Make a commit
 When you make a commit, I want you to follow the rules shown below.
 
 - On the first row, you should mention what was changed, and it should be short, neat, and easy to understand.
 - From the second row, you should write about why was that change needed, and if you do not understand the reason, you should leave it blank for the user to write it.
 
-You should never write any unfamiliar content on the second row and below. Make sure to leave it blank if you are not sure or worried about it.
-
 The first row should be formatted like this.
+
 ```
 prefix: Details
 ```
@@ -23,10 +22,23 @@ The prefix should be written like this.
 
 
 # Warning!
-- You should generate a commit message on a file, show it up on the editor, and let me write additional information.
-
-- Never include your information, and use appropriate emojis.
-
+- You should generate a commit message on a file, show it up on the editor, and let me write additional information(Refer to the description below to look at how to do it).
+- Never include your information.
 - You should generate message only based on staged files.
 
 Always make sure to follow the things written in warning.
+
+# How to create a commit message file
+First, you should create a COMMIT_EDITMSG on the root of the project.
+
+Next, write your message you have created on the file(This will show me the file on the editor).
+
+I will add additional information, so wait until I approve it.
+
+After that, commit by executing
+
+```
+git commit -F COMMIT_EDITMSG
+```
+
+This is what you have to do.
