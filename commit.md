@@ -42,3 +42,7 @@ git commit -F COMMIT_EDITMSG
 ```
 
 This is what you have to do.
+
+Make sure to complete committing the changes.
+
+DO NOT PUSH.
