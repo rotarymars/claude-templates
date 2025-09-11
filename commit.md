@@ -22,7 +22,7 @@ The prefix should be written like this.
 - `chore:` Changes to the build process or auxiliary tools and libraries
 
 
-If it's available, you should open the commit message page on the editor with the message generated.
+You should generate a commit message on a file, show it up on the editor, and let me write additional information.
 
 Never include your information, and use appropriate emojis.
 
