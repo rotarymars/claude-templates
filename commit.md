@@ -33,7 +33,7 @@ First, you should create a COMMIT_EDITMSG on the root of the project.
 
 Next, write your message you have created on the file(This will show me the file on the editor).
 
-I will add additional information, so wait until I approve it.
+I will add additional information, so wait until I approve it(You do not have to wait for the next prompt).
 
 After that, commit by executing
 
@@ -41,7 +41,11 @@ After that, commit by executing
 git commit -F COMMIT_EDITMSG
 ```
 
-After that, delete the COMMIT_EDITMSG
+After that, delete the COMMIT_EDITMSG by
+
+```
+rm COMMIT_EDITMSG
+```
 
 This is what you have to do.
 
