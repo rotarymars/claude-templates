@@ -41,6 +41,8 @@ After that, commit by executing
 git commit -F COMMIT_EDITMSG
 ```
 
+After that, delete the COMMIT_EDITMSG
+
 This is what you have to do.
 
 Make sure to complete committing the changes.
