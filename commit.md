@@ -29,13 +29,23 @@ The prefix should be written like this.
 Always make sure to follow the things written in warning.
 
 # How to create a commit message file
-First, execute `git commit`. That starts up the editor.
+First, you should create a COMMIT_EDITMSG on the root of the project.
 
-Next, write your message on `.git/COMMIT_EDITMSG`.
+Next, write your message you have created on the file(This will show me the file on the editor).
 
 I will approve the changes with my hands(By doing this, you get the right to move, so you don't have to wait for me to say that I'm done writing it).
 
-The message will be committed.
+After that, commit by executing
+
+```
+git commit -F COMMIT_EDITMSG
+```
+
+After that, delete the COMMIT_EDITMSG by
+
+```
+rm COMMIT_EDITMSG
+```
 
 This is what you have to do.
 
