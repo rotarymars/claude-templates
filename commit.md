@@ -35,16 +35,10 @@ Next, write your message you have created on the file(This will show me the file
 
 I will approve the changes with my hands(By doing this, you get the right to move, so you don't have to wait for me to say that I'm done writing it).
 
-After that, commit by executing
+After that, commit and clean up the file by executing
 
 ```
-git commit -F COMMIT_EDITMSG
-```
-
-After that, delete the COMMIT_EDITMSG by
-
-```
-rm COMMIT_EDITMSG
+git commit -F COMMIT_EDITMSG && rm COMMIT_EDITMSG
 ```
 
 This is what you have to do.
